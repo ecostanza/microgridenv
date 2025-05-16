@@ -1,9 +1,9 @@
 
 ## Instructions to run setup and run an example script
 
-1. clone the repository
+1. clone the git repository and work in the folder created by that operation
 
-2. download the data archive e.g. `simulation_data.tar.xz` (shared separately) and extract it into the folder `datastore` -- that should create a subfolder named `csv`
+2. download the data archive `simulation_data.tar.xz` (shared separately) into the `datastore` and extract it into that folder -- that should create a subfolder named `csv` (to do that `cd datastore` and `tar -xvf simulation_data.tar.xz`)
 
 3. create a conda environment: `conda create -n microgrid python==3.12.5 pip` and activate it (`conda activate microgrid`)
 
